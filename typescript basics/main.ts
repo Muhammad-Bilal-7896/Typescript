@@ -6,13 +6,16 @@ console.log(message);
 
 
 //Variable Declarations
+//Like in c++ when defining a constant we have to assign it a value
 let x = 10;
 const y = 20;
 
+//Where as Let can be defined withuot assigning it a value
 let sum;
+const title:string = 'BilalMohib';
 
-const title = 'BilalMohib';
-
+//It is a rule that in type script we have to declare the type of the variable
+//Although in some cases it works as above code is working without actually declaring the type defination
 let isBegginer:boolean = true;
 let total:number = 0;
 let name : string = 'Pakistan';
@@ -41,3 +44,5 @@ let list2:Array<number> = [1,2,3];
 //3) The number cant come first the order will be followed as its defined
 //So here is an example how would we do that.
 let mixedArray:[string,number] = ['Chris',22];
+
+///////////////////////ENUMS/////////////////

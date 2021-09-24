@@ -13,3 +13,5 @@ Note the js filename will be same as typescript file name by default when you wi
 
 ## 4- You are ready to run these programs
 
+## For me 
+Unknown type you have to learn it later if you are not understanding now

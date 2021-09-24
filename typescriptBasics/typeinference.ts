@@ -15,8 +15,11 @@ let a;
 a = 10;
 a = true;
 
-//This demonstrates the type inference
+//This demonstrates the type inference hover over the b when its giving error by uncommenting that you will know that
 //let b = 20;
 //b = true;
+//also it will provide methods for integers only 
 
 console.log(a);
+
+//Type inference does not work on variable a as their is no initialization

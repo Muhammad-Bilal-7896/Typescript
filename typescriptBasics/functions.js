@@ -19,8 +19,26 @@ console.log("The value returned from function is : ", val);
 //But remember the optional parameter must be at the end.Ok
 //It will throw an error if you define a required parameter at the end after optional parameter
 //Always optional parameter will be at the end.Ok
+//Also remember parameters cant have question mark and initialization both
 function optional_parameters(n2, n1) {
-    return n1 + n2;
+    if (n2) {
+        return n1 + n2;
+    }
+    else {
+        return n1;
+    }
 }
 var val2 = optional_parameters(3);
 console.log("Val 2 is equal to: ", val2);
+//Clearing the previous console
+console.clear();
+//Default parameters in functions of Type Script
+function default_parameters(n2, n1) {
+    if (n1 === void 0) { n1 = 10; }
+    return n1 + n2;
+}
+var val3 = default_parameters(7);
+console.log("Val 3 is equal to: ", val3);
+//So conclusion is that default parameters are optional parameters
+//So functions are cleared in typescript
+//So lets move on to interfaces

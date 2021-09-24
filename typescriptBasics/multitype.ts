@@ -17,3 +17,6 @@ console.log("The multitype value is : ",multiType);
 
 //Also in union type there is intellisance for available functions of defined types
 //But in any type no intellisance is available so in this case their is an advantage of union type
+
+
+
